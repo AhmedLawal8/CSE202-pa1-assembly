@@ -38,8 +38,6 @@ The binsearch function has already been implemented, so you have an example of w
 
 Before you modify anything, you should test what you have downloaded. To do this, simply type "bash runTests.sh". This Bash script compiles the program and runs a suite of tests. It compares the output of your program with the reference output of the program. You do NOT need (nor should you) edit runTests.sh, makefile, tests.reference, or prog1.c.
 
-In addition to submitting your code in the various assembly .S files, you need to upload a JPEG file. The JPEG you are to create while you are developing/debugging your code for the gcd function. While running "gdb -tui --args ./prog1 gcd 1071 462", step into the gcd function and type the gdb command "info registers" to display all the register values. Know that you can use the shortcut "i r" to do the same thing, and you can type "i r edi" to just print the value in the %edi register, for example. Save a screenshot of the output into a "registers.jpg" file and push this to GitHub. You don't have to use the arguments I listed, those are just examples.
-
 # Submission
 Submit only .S files:
 1) area.S

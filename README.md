@@ -40,6 +40,19 @@ Before you modify anything, you should test what you have downloaded. To do this
 
 In addition to submitting your code in the various assembly .S files, you need to upload a JPEG file. The JPEG you are to create while you are developing/debugging your code for the gcd function. While running "gdb -tui --args ./prog1 gcd 1071 462", step into the gcd function and type the gdb command "info registers" to display all the register values. Know that you can use the shortcut "i r" to do the same thing, and you can type "i r edi" to just print the value in the %edi register, for example. Save a screenshot of the output into a "registers.jpg" file and push this to GitHub. You don't have to use the arguments I listed, those are just examples.
 
+# Submission
+Submit only .S files:
+1) area.S
+2) binsearch.S
+3) commonPrefix.S
+4) gcd.S
+5) isPrime.S
+6) mult7div8.S
+7) product.S
+8) reverse.S
+9) secondMax.S
+10) sum.S
+
 # Recommended Approach
 1) Leverage the textbook.
 2) Work on this assignment a little every day.

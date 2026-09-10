@@ -58,4 +58,5 @@ Submit only .S files:
 # Important Notes
 1) Add comments to your code; it will help you and the graders, especially during code review. 
 2) Do NOT modify the files prog1.c, runTests.sh, makefile, tests.reference; only modify the .S files.
-3) Submit all your codes on Gradescope for grading.
+3) I will run your assembly on sunlab machine, please make sure your codes work on sunlab machine before submit. 
+4) Submit all your codes on Gradescope for grading.

@@ -56,7 +56,6 @@ Submit only .S files:
 2) Work on this assignment a little every day.
 
 # Important Notes
-1) Add comments to your code; it will help you and the graders!
+1) Add comments to your code; it will help you and the graders, especially during code review. 
 2) Do NOT modify the files prog1.c, runTests.sh, makefile, tests.reference; only modify the .S files.
-3) Push your code often!!! This will give you a backup, enable you to retrieve earlier versions, and demonstrate you actually wrote the code over time. If you only perform one push of your final code, your submission will be THOROUGHLY evaluated to ensure it is original. 
-4) Submit all your codes on Gradescope for grading.
+3) Submit all your codes on Gradescope for grading.

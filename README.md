@@ -13,9 +13,9 @@ Use the C program named prog1.c to call externally defined functions that you wi
 
 Your task is to implement each function in X86-64 assembly. Because of this requirement, it is highly recommended you do your development work on the sunlab machines.
 
-The binsearch function has already been implemented, so you have an example of what you are to do. Additionally, function shells have already been written in mult7div8.S, area.S, secondMax.S, gcd.S, reverse.S, sum.S, product.S, commonPrefix.S, and isPrime.S. Here's a listing of the purpose of the functions. The C code is provided as comments at the end of each .S file. 
+Function shells have already been written in binsearch.S, mult7div8.S, area.S, secondMax.S, gcd.S, reverse.S, sum.S, product.S, commonPrefix.S, and isPrime.S. Here's a listing of the purpose of the functions. The C code is provided as comments at the end of each .S file. 
 
-- **binsearch**: accepts a pointer to a sorted array of integers, an unsigned for its length, and a target integer. It returns the index of the target using binary search, or -1 if the target is not present. binsearch is already implemented in binsearch.S as your worked example.
+- **binsearch**: accepts a pointer to a sorted array of integers, an unsigned for its length, and a target integer. It returns the index of the target using binary search, or -1 if the target is not present.
   
 - **mult7div8**: accepts two parameters: a signed character and a pointer to an unsigned char. The function multiplies the signed character by 7 and divides the product by 8 using shift and add/sub operations only. If the multiplication  overflows, the unsigned character is set 1 and to 0 if no overflow occurs.
   
